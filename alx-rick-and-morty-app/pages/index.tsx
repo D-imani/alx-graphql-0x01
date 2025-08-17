@@ -1,5 +1,5 @@
 import { useQuery } from "@apollo/client";
-import { GET_CHARACTER } from "../graphql/queries";
+import { GET_CHARACTER } from "../graphql/apolloClient";
 
 export default function Home() {
   const { loading, error, data } = useQuery(GET_CHARACTER, {

@@ -1,7 +1,7 @@
 "use client";
 
 import { useQuery } from "@apollo/client";
-import { GET_CHARACTER } from "@/graphql/queries";
+import { GET_CHARACTER } from "@/graphql/apolloClient";
 
 export default function CharacterPage({ params }: { params: { id: string } }) {
   const { id } = params;
